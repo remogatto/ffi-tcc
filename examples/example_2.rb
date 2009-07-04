@@ -3,10 +3,10 @@ require 'ffi-tcc'
 
 include TCC
 
-# This proc is  used within C fragment
+# This proc is used within the C fragment
 Add = Proc.new { |a, b| a + b } 
 
-# The C program
+# The C fragment
 Fibonacci = <<EOP
 int fib(int n)
 {
