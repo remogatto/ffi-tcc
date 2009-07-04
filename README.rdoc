@@ -4,11 +4,11 @@ ffi-tcc
 
 == DESCRIPTION:
 
-ffi-tcc is a ruby-ffi binding to libtcc [http://bellard.org/tcc/]. The
+ffi-tcc is a ruby-ffi binding to libtcc[http://bellard.org/tcc/]. The
 ruby-ffi interface, generated using
 ffi-swig-generator[http://kenai.com/projects/ruby-ffi/sources/swig-generator/show],
-is a 1:1 transliteration of the C api. It's up to you to build more
-idiomatic code on it!
+is a 1:1 transliteration of the C api. So, let's go build more
+idiomatic code on top of it :)
 
 == FEATURES/PROBLEMS:
 
