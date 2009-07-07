@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift 'lib'
+$:.unshift(File.expand_path(File.join(File.dirname(__FILE__), '../lib')))
 require 'ffi-tcc'
 
 include TCC

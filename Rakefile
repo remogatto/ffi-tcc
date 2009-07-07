@@ -26,6 +26,6 @@ PROJ.ann.email[:from] = 'andrea.fazzi@alcacoop.it'
 PROJ.ann.email[:to] << 'dev@ruby-ffi.kenai.com' << 'users@ruby-ffi.kenai.com'
 PROJ.ann.email[:server] = 'smtp.gmail.com'
 
-depend_on 'ffi'
+depend_on 'ffi', '0.4.0'
 
 # EOF
